@@ -1,0 +1,12 @@
+# 4 Etapas principais para criar um API:
+
+# API - É um lugar para disponibilizar recursos e/ou funcionalidades
+# 1. Objetivo: Criar um API que disponibiliza a consulta, criação, edição e exclusão de livros
+# 2. URL Base: localhost - Porém poderia ser algo como youtube.com/api/... 
+# 3. Endpoints(Locais disponíveis para acesso):
+    # localhost/livros (GET)
+    # localhost/livros/id (GET)
+    # localhost/livro/id (PUT)
+    # localhost/livro/id (DELETE)
+    
+# 4. Quais recursos - Livros
