@@ -19,3 +19,11 @@ livros = [
         'autor' : 'Hábitos Atômicos'
     }
 ]
+
+# Consultar (todos)
+@app.route('/livros')
+def obterLivros():
+    return jsonify(livros)
+# Consultar (id)
+# Editar
+# Excluir
