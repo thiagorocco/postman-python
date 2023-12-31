@@ -5,19 +5,19 @@ app = Flask(__name__)
 livros = [
     {
         'id': 1,
-        'título': 'O Senhor dos Anéis - A Sociedade do Anel',
+        'titulo': 'O Senhor dos Anéis - A Sociedade do Anel',
         'autor' : 'JRR Tolkien'
-    }
+    },
     {
         'id': 2,
-        'título': 'Harry Poter e a pedra filosofal',
+        'titulo': 'Harry Poter e a pedra filosofal',
         'autor' : 'JK Howling'
-    }
+    },
     {
         'id': 3,
-        'título': 'James Clear',
-        'autor' : 'Hábitos Atômicos'
-    }
+        'titulo': 'Hábitos Atômicos',
+        'autor' : 'James Clear',
+    },
 ]
 
 # Consultar (todos)
@@ -27,3 +27,5 @@ def obterLivros():
 # Consultar (id)
 # Editar
 # Excluir
+
+app.run(port=5000, host='localhost',debug=True)
